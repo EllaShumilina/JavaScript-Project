@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,300,800,700,600);
+
+body {
+    height:100% !important;
+    margin:0 !important;
+}
+
+h1 {
+  font-family:'Raleway', sans-serif;
+  font-size: 45pt !important;
+  font-weight: 700 !important;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+#resultTitle {
+  font-family:'Raleway', sans-serif;
+  font-size: 35pt;
+  font-weight: 700;
+  color: #6D929B;
+  text-align: left;
+  padding-left: 35px;
+}
+
+
+p {
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+img {
+
+  position: relative;
+  left: 100px;
+  bottom: 220px;
+}
+
+input[type="button"]
+{
+    border-radius:5px;
+    text-transform:uppercase;
+    margin: 0px 25px 0px 25px;
+}
+
+.section {
+	 width: 100%;
+	 height:100%;
+	 color:white;
+   font-family:'Raleway', sans-serif;
+   font-weight: 700;
+	 font-size: 30pt;
+     text-transform:uppercase;
+     text-align:center;
+     padding:20px;
+     position:fixed;
+ }
+
+.first {
+   background: url(../img/cv.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.red {
+    background-color:#d43333;
+
+}
+
+.yellow {
+    background-color:#d4a333;
+}
+
+.blue {
+    background-color:#3386d4;
+}
+
+.green {
+    background-color:#1aba8d;
+}
+
+.tooltipDIV {
+    padding:40px;
+    width:50px;
+}
+
+
+#listProfessions {
+  font-family:'Raleway', sans-serif;
+  color: #6D929B;
+  font-weight: 400;
+  font-size: 15pt !important;
+  text-align: left;
+  list-style: none;
+  padding-top: 20px;
+}
+
+
+.btn-primary {
+  position: relative;
+  right: 680px;
+  bottom: 80px;
+}
+
+.tooltip-image {
+  position: relative;
+  bottom: 370px;
+  left: 430px;
+  width: 50px;
+  height:50px;
+}
+
+input.btn.btn-default {
+  background-color: #37635a;
+  border-color: transparent;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+ <html>
+<head>
+<meta charset="UTF-8" />
+
+  <title>Careers for Personality Type</title>
+
+<link href="css/screen.css" rel="stylesheet" type="text/css"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+
+
+ <link href="css/tooltipster.css" rel="stylesheet" />
+    <link href="css/themes/tooltipster-light.css" rel="stylesheet" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
+<script src="script/jquery.flexverticalcenter.js"></script>
+<script src="script/script.js"></script>
+<script src="script/jquery.tooltipster.min.js"></script>
+
+</head>
+
+<body>
+    <div class="section first" id="0" >
+        <h1>
+            the Best careers for <br />your personality type
+        </h1>
+        <input type="button" class="btn btn-default" value="Take a quiz" />
+        <img src="img/info.png" class="tooltip-image" alt="info" title="This website is based on the infographic from an article. For more information on your personality type, visit truity.com.
+        All the vectors are taken from freepic.com."/>
+    </div>
+
+
+    <div class="section red" id="1" style="display:none;">
+        <div>
+            <p>
+                what is your energy style?
+            </p>
+            <span class="tooltipDIV"  title="Extraverts like working with other people, on teams, and in busy spaces.">
+                <input type="button" class="btn btn-danger" value="extrovert" letter="E" />
+            </span>
+
+            <span class="tooltipDIV" title="Introverts like working independently or in small groups, in calm, quiet spaces.">
+                <input type="button" class="btn btn-danger" value="introvert" letter="I"/>
+            </span>
+        </div>
+    </div>
+
+
+
+    <div class="section yellow" id="2" style="display:none;" >
+        <div>
+            <p>
+                what is your thinking style?
+            </p>
+          <span class="tooltipDIV"  title="Sensors like working with concrete things like people, data, and machines.">
+            <input type="button" class="btn btn-warning" value="sensors" letter="S" />
+          </span>
+
+          <span class="tooltipDIV"  title="Intuitives like working with abstract things like theories, ideas, and possibilities.">
+            <input type="button" class="btn btn-warning" value="intuitives" letter="N" />
+          </span>
+        </div>
+    </div>
+
+
+    <div class="section blue" id="3" style="display:none;">
+        <div>
+            <p>
+                what is your values style?
+            </p>
+          <span class="tooltipDIV"  title="Thinkers want work that uses their intelligence and lets them excel.">
+            <input type="button" class="btn btn-info" value="thinkers" letter="T" />
+          </span>
+
+          <span class="tooltipDIV" title="Feelers want work that reflects their values and helps other people.">
+            <input type="button" class="btn btn-info" value="feelers" letter="F" />
+          </span>
+        </div>
+    </div>
+
+    <div class="section green" id="4" style="display:none;">
+        <div>
+            <p>
+                what is your life style?
+            </p>
+          <span class="tooltipDIV" title="Judgers like organization and a structured, orderly workplace.">
+            <input type="button" class="btn btn-success" value="judgers" letter="J" />
+          </span>
+
+          <span class="tooltipDIV" title="Perceivers like flexibility and freedom, and don't mind a little bit of chaos.">
+            <input type="button" class="btn btn-success" value="perceivers" letter="P" />
+          </span>
+        </div>
+    </div>
+
+
+    <!-- Display Results-->
+    <div class="section" id="5" style="display:none;">
+
+
+      <h2 id="resultTitle"></h2>
+      <ul id="listProfessions"></ul>
+      <img name="imgProfession" id="imgProfession" alt="profession" src="" width="300" />
+ <img src="img/info.png" class="tooltip-image" alt="info" title="This website is based on the infographic from an article. For more information on your personality type, visit truity.com.
+ All the vectors are taken from freepic.com."/>
+
+
+    <input type="button" class="btn btn-primary" value="startover" letter="Z" />
+
+
+
+</div>
+
+</body>
+
+</html>
